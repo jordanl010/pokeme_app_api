@@ -1,10 +1,10 @@
 // dependencies
-var express = require('express')
-    , logger = require('morgan')
-    , cors = require('cors')
-    , cookieParser = require('cookie-parser')
-    , bodyParser = require('body-parser')
-    , path = require('path');
+var express = require('express'),
+    logger = require('morgan'),
+    cors = require('cors'),
+    cookieParser = require('cookie-parser'),
+    bodyParser = require('body-parser'),
+    path = require('path');
 // create instance of express
 var app = express();
 // require routes

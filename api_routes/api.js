@@ -5,8 +5,7 @@
 var express = require('express'),
     router = express.Router(),
     app = express(),
-    util = require('../utils/util.js'),
-    colors = require('colors');
+    util = require('../utils/util.js');
 
 
 //pogo buf information
