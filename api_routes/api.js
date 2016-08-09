@@ -68,4 +68,11 @@ router.get('/getPokemon', function (req, res) {
         });
     });
 })
+
+//API Route
+router.get('/getTest', function (req, res) {
+   res.json({
+       data:"success"
+   })
+})
 module.exports = router;
